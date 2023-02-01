@@ -1,0 +1,85 @@
+/* Hojas de estilos SASS */
+@import "./index.scss";
+@import "./dedsec.scss";
+@import "./ctOS.scss";
+@import "./galeria.scss";
+@import "./info.scss";
+
+/*  */
+html {
+  height: 100%;
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url("../media/img/desktopwallpaper.jpg");
+    background-size: cover;
+    color: white;
+    margin: 0;
+    font-family: "Play", sans-serif;
+    @media (max-width: 700px) {
+      background-image: url(../media/img/mobilewallpaper.jpg);
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      min-height: 150px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      @media (max-width: 700px) {
+        flex-direction: column;
+      }
+      nav {
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: 600;
+          padding-right: 10px;
+          transition: 0.5s;
+          &:hover {
+            color: rgb(0, 195, 255);
+          }
+        }
+      }
+      .header_logo {
+        display: flex;
+        align-items: center;
+        img {
+          height: 110px;
+          margin-right: 20px;
+          transition: 2s;
+          &:hover {
+            transform: scale(1.2);
+            transition: all 0.7s;
+            -webkit-transform: scale(1.3);
+            -o-transform: scale(1.3);
+            -moz-transform: scale(1.3);
+          }
+        }
+      }
+    }
+    footer {
+      background-color: rgb(37, 37, 37);
+      width: 100%;
+      text-align: center;
+      margin-top: auto;
+      color: black;
+      ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+h1, h2, h3, a, p, img {
+  &::selection {
+    color: black;
+    background-color: white;
+  }
+}

@@ -1,0 +1,18 @@
+.container_info {
+    display: flex;
+    flex-direction: column;
+  h2 {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding: 30px;
+    margin: 10px 50px 10px 50px;
+  }
+  p {
+    text-align: center;
+    margin: 10px 200px 10px 200px;
+  }
+  img {
+    width: 400px;
+    margin: 10px auto 50px auto;
+  }
+}
