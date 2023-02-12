@@ -368,7 +368,7 @@ html body header .header_logo img:hover {
   -moz-transform: scale(1.3);
 }
 html body footer {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(110, 110, 110);
   width: 100%;
   text-align: center;
   margin-top: auto;
