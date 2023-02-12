@@ -7,21 +7,21 @@
   }
   p {
     font-family: play;
-    padding: 10px 0px 10px 0px;
-    text-align: justify;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
     font-size: 23px;
   }
 }
 .grid_container_index {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas: "art main asd";
-  gap: 30px;
+  gap:10px;
   padding: 20px;
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "main"
     "art"
@@ -44,6 +44,9 @@
       background-color: rgb(41, 41, 41);
     }
   }
+  p {
+    padding: 20px 30px;
+  }
 }
 .container_char {
   padding-bottom: 120px;
@@ -51,11 +54,11 @@
     text-align: center;
     background-color: rgb(41, 41, 41);
     padding: 30px;
-    margin: 10px 50px 10px 50px;
+    margin: 10px 10px 10px 10px;
   }
   p {
     font-family: play;
-    padding: 10px 150px 10px 150px;
+    padding: 10px 50px;
     text-align: center;
     font-size: 23px;
     @media (max-width: 700px) {

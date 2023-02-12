@@ -8,11 +8,12 @@ p {
   font-family: play;
   text-align: center;
   font-size: 23px;
+  padding: 20px 100px 20px 100px;
 }
 .container_ctos {
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   h2 {
     text-align: center;
     background-color: rgb(41, 41, 41);
@@ -21,15 +22,12 @@ p {
   }
   p {
     font-family: play;
-    padding: 10px 150px 100px 150px;
-    text-align: justify;
+    padding: 10px 100px 10px 100px;
+    text-align: center;
     font-size: 23px;
     @media (max-width: 700px) {
-      padding: 20px;
+      padding: 20px 100px 20px 100px;
     }
-  }
-  article {
-    grid-area: art;
   }
   img {
     grid-area: img;
@@ -61,7 +59,7 @@ p {
   }
   p {
     font-family: play;
-    padding: 10px 150px 60px 150px;
+    padding: 10px 100px 60px 100px;
     text-align: center;
     font-size: 23px;
   }
